@@ -1,0 +1,14 @@
+library ieee;
+	use ieee.std_logic_1164.all;
+
+
+entity serial_ctrl is
+port (
+	received_data	: in std_logic_vector(7 downto 0);
+	received_valid	: in std_logic );
+
+architecture rtl of key_ctrl is
+
+begin
+
+end architecture;
